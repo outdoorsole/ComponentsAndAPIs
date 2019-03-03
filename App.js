@@ -15,6 +15,8 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
+        <View style={styles.box1} />
+        <View style={styles.box2} />
       </View>
     );
   }
@@ -23,6 +25,13 @@ export default class App extends Component<Props> {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#F5FCFF',
   },
+  box1: {
+    flex: 1,
+    backgroundColor: 'powderblue',
+  },
+  box2: {
+    flex: 1,
+    backgroundColor: 'skyblue',
+  }
 });
